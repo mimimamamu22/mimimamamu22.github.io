@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9</title>
+</head>
+<body>
+    <input type="text" id="myText" placeholder="Текст">
+    <button onclick="f1()">Вывести мой текст</button>
+    <div id="result"></div>
+</body>
+
+<script>
+    function f1(){
+        let string = myText.value;
+        result.innerText = string;
+    }
+</script>
+
+<style>
+    input{
+        height: 50px;
+        width: 200px;
+    }
+    button{
+        margin: 5px;
+        height: 30px;
+        background: green;
+    }
+    button:hover{
+        background: red;
+        color: Azure;
+    }
+    #result{
+        height: 40px;
+        font-size: large;
+        color: darkred;
+    }
+</style>
+
+</html>

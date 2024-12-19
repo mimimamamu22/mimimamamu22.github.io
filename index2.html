@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="a">
+        <div>
+            Cочи
+            <br>
+            10000000
+        </div>
+        <div>
+            Москва
+            <br>
+            50000000
+        </div>
+        <div>
+            Владимир
+            <br>
+            20000000
+        </div>
+    </div>
+</body>
+<script>
+ let elem = document.createElement ('div')
+    elem.style.backgroundColor = 'blue'
+    elem.style.height = '500px'
+    elem.style.width = '100px'
+ document.body.append(elem)
+</script>
+
+<style>
+div{
+    display: flex;
+    flex-direction: column;
+}
+#a{
+    display: flex;
+    flex-direction: row;
+}
+</style>
+</html>
